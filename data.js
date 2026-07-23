@@ -4,17 +4,17 @@
 // - bio: array of paragraphs (each string = one paragraph)
 // - contacts: any of { email, scholar, github, cv, website } — omit keys you don't have
 const PROFILE = {
-  name: "Yu",
-  role: "Doctoral Researcher, HCI — University of St. Gallen",
+  name: "Yu Sun | 孙瑜",
+  role: "Doctoral Researcher, HCI|XR|AI — University of St. Gallen",
   bio: [
     "I research immersive technologies — VR and MR — through the lens of lived experience and embodied perception, studying what it means to live across virtual and physical environments as the line between them blurs.",
     "Alongside my PhD, I develop and teach a bachelor-level course on Human–Robot Interaction. After finishing my doctorate, I plan to build a startup around this work."
   ],
   contacts: {
-    email: "mailto:you@example.com",
-    scholar: "#",
-    github: "#",
-    cv: "#"
+    email: "mailto:yu.sun@unisg.ch",
+    scholar: "https://scholar.google.com/citations?user=Y7T5GzwAAAAJ&hl=en",
+    linkedin: "https://www.linkedin.com/in/yu-sun-90295b192/",
+    cv: "files/CV-Industry-UXR.pdf"
   }
 };
 
