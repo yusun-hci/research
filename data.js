@@ -39,6 +39,16 @@ const ENTRIES = [
   },
   {
     type: "Paper",
+    thumb: "files/vrliving.jpg",
+    title: "Is This the Real Life? Is This Just Fantasy? Exploring the Impact of Intense Engagement in Virtual Reality on Real Life",
+    authors: ["**Yu Sun**", "Sophia Ppali", "Jaydon Farao", "Victoria Chui", "Julian Rasch", "Alexandra Covaci"],
+    venue: "ACM Transactions on Social Computing, Accepted for publication",
+    tags: ["Social VR", "Intense Engagement", "Virtual Inhabitation", "VRChat"],
+    abstract: "Virtual reality (VR) applications increasingly offer experiences that mimic everyday life, allowing users to socialise, exercise, and even sleep in virtual environments. For some, these virtual experiences have become a significant part of their daily routines, with users spending thousands of hours in VR. In this study, we sought to understand the impact of such intense VR engagement on real life and its broader implications. We conducted 14 in-depth interviews with individuals who have spent over one-thousand hours in social VR. Our findings reveal that prolonged VR use substantially influences users' social connections, self-identity, and daily routines, leading to noticeable changes in their lives. Our work provides insights into the implications of sustained VR use and how immersive technologies are integrated into everyday life. Ultimately, the study highlights what the HCI community can learn from these 'intense' VR users to inform future research and practices.",
+    links: { pdf: "", doi: ""}
+  },
+  {
+    type: "Paper",
     thumb: "files/trainvr.jpg",
     title: "TrainCafé: VR Usage on the Go through Virtual Metaphors",
     authors: ["**Yu Sun**", "Adrian Pandjaitan", "Gero Träm"],
