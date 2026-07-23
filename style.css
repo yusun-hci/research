@@ -11,13 +11,21 @@
 
 * { box-sizing: border-box; }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   margin: 0;
   background: var(--paper);
   color: var(--ink);
   font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  width: 100%;
 }
+
+img { max-width: 100%; display: block; }
 
 .wrap {
   max-width: 760px;
@@ -61,16 +69,17 @@ body {
 
 .eyebrow {
   margin: 56px 0 10px;
-  font-size: 13px;
+  font-size: 12.5px;
   font-weight: 600;
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: var(--violet);
+  line-height: 1.4;
 }
 
 #profile h1 {
   font-family: "Fraunces", serif;
-  font-size: 48px;
+  font-size: clamp(30px, 7vw, 48px);
   font-weight: 600;
   margin: 0 0 18px;
   letter-spacing: -0.01em;
@@ -135,9 +144,11 @@ body {
   background: transparent;
   border: 1px solid var(--hairline);
   border-radius: 999px;
-  padding: 6px 14px;
+  padding: 8px 14px;
+  min-height: 36px;
   cursor: pointer;
   transition: border-color 0.15s ease, color 0.15s ease, background 0.15s ease;
+  flex: 0 0 auto;
 }
 
 .pill:hover { border-color: var(--violet); color: var(--ink); }
@@ -287,6 +298,8 @@ body {
   color: var(--accent);
   text-decoration: none;
   font-weight: 600;
+  padding: 4px 2px;
+  min-height: 28px;
 }
 
 .link:hover { text-decoration: underline; }
@@ -317,9 +330,62 @@ body {
 }
 
 /* ---------- Responsive ---------- */
-@media (max-width: 560px) {
+
+/* Tablet: tighten spacing, keep two-column card layout */
+@media (max-width: 800px) {
+  .wrap { padding: 0 20px; }
+  .blob-a { width: 280px; height: 280px; top: -130px; right: -90px; }
+  .blob-b { width: 200px; height: 200px; left: -100px; }
+}
+
+/* Small tablet / large phone: stack cards, full-width thumb */
+@media (max-width: 640px) {
   .eyebrow { margin-top: 40px; }
-  #profile h1 { font-size: 34px; }
-  .card { flex-direction: column; }
-  .thumb { width: 100%; height: 140px; }
+  .contacts { padding-bottom: 24px; }
+  .filters { padding: 22px 0 4px; }
+  .entries { padding: 16px 0 48px; }
+
+  .card {
+    flex-direction: column;
+    padding: 16px;
+    gap: 14px;
+  }
+  .thumb {
+    width: 100%;
+    height: 160px;
+    flex-basis: auto;
+  }
+}
+
+/* Phone */
+@media (max-width: 420px) {
+  .wrap { padding: 0 16px; }
+  .eyebrow { margin-top: 32px; font-size: 11.5px; }
+  #profile .bio { font-size: 14.5px; }
+  .contact-link { padding: 7px 12px; font-size: 12.5px; }
+  .pill { padding: 7px 12px; font-size: 12.5px; }
+
+  .card { padding: 14px; border-radius: 10px; }
+  .thumb { height: 140px; }
+  .title { font-size: 15px; }
+  .abstract p { padding: 9px 12px; font-size: 13px; }
+  .links { gap: 4px; }
+  .link span { display: inline; }
+}
+
+/* Very narrow phones */
+@media (max-width: 340px) {
+  #profile h1 { font-size: 26px; }
+  .tags { gap: 5px; }
+  .tag { font-size: 11px; padding: 3px 8px; }
+}
+
+/* Respect reduced-motion preference */
+@media (prefers-reduced-motion: reduce) {
+  .card, .contact-link, .abstract summary svg, .pill {
+    transition: none;
+  }
+  .card:hover, .contact-link:hover {
+    transform: none;
+  }
 }
