@@ -4,7 +4,7 @@
 // - bio: array of paragraphs (each string = one paragraph)
 // - contacts: any of { email, scholar, github, cv, website } — omit keys you don't have
 const PROFILE = {
-  name: "Yu Sun | 孙瑜",
+  name: "Yu Sun",
   role: "Doctoral Researcher, HCI|XR|AI — University of St. Gallen",
   bio: [
     "I research immersive technologies — VR and MR — through the lens of lived experience and embodied perception, studying what it means to live across virtual and physical environments as the line between them blurs.",
@@ -13,7 +13,7 @@ const PROFILE = {
   contacts: {
     email: "mailto:yu.sun@unisg.ch",
     scholar: "https://scholar.google.com/citations?user=Y7T5GzwAAAAJ&hl=en",
-    linkedin: "https://www.linkedin.com/in/yu-sun-90295b192/",
+    github: "https://www.linkedin.com/in/yu-sun-90295b192/",
     cv: "files/CV-Industry-UXR.pdf"
   }
 };
@@ -29,13 +29,13 @@ const PROFILE = {
 const ENTRIES = [
   {
     type: "Paper",
-    thumb: "thumbs/example-1.png",
-    title: "Example Paper Title Goes Here: Replace With Your Own",
-    authors: ["**Yu**", "Coauthor One", "Coauthor Two", "Coauthor Three"],
-    venue: "CHI '26",
-    tags: ["Immersive Tech", "Embodied Perception"],
-    abstract: "Replace this with your real abstract. Two or three sentences summarizing the problem, your approach, and the key finding works well — readers can expand this section to see the full text without it cluttering the main list view.",
-    links: { pdf: "#", doi: "#", arxiv: "#" }
+    thumb: "files/AE.jpg",
+    title: "Experiencing the World through Imperfect Lenses: An Autoethnography of Living in Mixed Reality",
+    authors: ["**Yu Sun**", "Johannes Schöning"],
+    venue: "DIS '25",
+    tags: ["Mixed Reality", "Autoethnography"],
+    abstract: "Mixed reality (MR) technologies are evolving to become more portable, incorporating video see-through capabilities, which enable a shift from stationary to mobile use. This development allows MR headsets to be used in various everyday contexts, including eating, travelling, and exercising. Before MR technologies reshape how we live and seamlessly integrate into our daily activities, we must understand the lived experiences of using MR in our personal lives and their influences and implications on our day-to-day activities. This paper presents an autoethnographic study that adopts an exploratory first-person perspective to uncover challenges and opportunities within this intimate context. We present the experiences and challenges of living in mixed reality, including on-the-go scenarios and social interactions. Our findings reveal issues such as social and ethical concerns and offer lessons learned to inform the design of future interactive systems for mobile mixed reality.",
+    links: { pdf: "files/3715336.3735841.pdf", doi: "https://dl.acm.org/doi/full/10.1145/3715336.3735841"}
   },
   {
     type: "Paper",
