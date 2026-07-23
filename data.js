@@ -39,13 +39,13 @@ const ENTRIES = [
   },
   {
     type: "Paper",
-    thumb: "thumbs/example-2.png",
-    title: "Second Example: Hybrid Living Across Virtual and Physical Environments",
-    authors: ["**Yu**", "Coauthor A", "Coauthor B"],
-    venue: "CSCW '25",
-    tags: ["VR/MR", "Hybrid Living"],
-    abstract: "Another placeholder abstract. Swap in your actual text — it can be as long as you like, since it only expands when someone clicks to read it.",
-    links: { pdf: "#", doi: "#", video: "#" }
+    thumb: "files/trainvr.jpg",
+    title: "TrainCafé: VR Usage on the Go through Virtual Metaphors",
+    authors: ["**Yu Sun**", "Adrian Pandjaitan", "Gero Träm"],
+    venue: "AlpCHI '26",
+    tags: ["Virtual Reality", "Dual Existence", "Virtual Metaphor"],
+    abstract: "As virtual reality becomes increasingly embedded in everyday life, users are adopting it in mobile contexts such as travel. However, immersing in VR introduces challenges for navigating the physical world. While video see-through or removing the headset allows access to real-world navigational information, it also breaks immersion. We present TrainCafé, a prototype that employs virtual metaphors aligned with a real train environment to convey spatial information without disrupting immersive experiences. In an empirical study with 18 participants, our design enabled users to navigate the physical space while remaining fully immersed in VR, while also enhancing engagement and enjoyment. We thus contribute a reality-aware system that blends functional navigation cues with engaging narrative design, and discuss its implications for always-on mobile VR that becomes part of our everyday life.",
+    links: { pdf: "files/3780045.3780062.pdf", doi: "https://dl.acm.org/doi/10.1145/3780045.3780062", video: "https://youtu.be/8Y8WbaaLfKE" }
   },
   {
     type: "Project",
