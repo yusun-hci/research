@@ -86,5 +86,15 @@ const ENTRIES = [
     tags: ["Mixed Reality", "Assistive MR Artefacts"],
     abstract: "Language barriers pose significant challenges in our increasingly globalized world, hindering effective communication and access to information. Existing translation tools often disrupt the current activity flow and fail to provide seamless user experiences. In this paper, we contribute the design, implementation, and evaluation of MRTranslate, an assistive Mixed Reality (MR) prototype that enables seamless translations of real-world text. We instructed 12 participants to translate items on a food menu using MRTranslate, which we compared to state-of-the-art translation apps, including Google Translate and Google Lens. Findings from our user study reveal that, when utilising a fully functional implementation of MRTranslate, participants achieved success in up to 91.67% of their translations whilst also enjoying the visual translation of unfamiliar text. Although the current translation apps were well perceived, participants particularly appreciated the convenience of not having to grab a smartphone and manually input the text for translation when using MRTranslate. We believe that MRTranslate, along with the empirical insights we have gained, presents a valuable step towards a future where MR transforms language translation and holds the potential to assist individuals in various day-to-day experiences.",
     links: { pdf: "files/3656650.3656652.pdf", doi: "https://dl.acm.org/doi/abs/10.1145/3656650.3656652"}
+  },
+  {
+    type: "Project",
+    thumb: "files/yuno.jpg",
+    title: "Yuno: Augmenting Human Memory in Social Contexts Through Real-Time Face Recognition and Contextual Recall",
+    authors: ["Robin Sutter","Benjamin Stieger","Yannik Holenstein", "**Yu Sun**","Florian Mathis"],
+    venue: "DIS '26 Demo",
+    tags: ["AI Assistant", "Human Augmentation","Wearable Computing"],
+    abstract: "Remembering faces and the contexts in which people were previously encountered is cognitively demanding. In this interactivity paper, we present Yuno, an AI-powered system that augments human social memory by combining real-time face recognition with contextual recall of relationship information. Yuno integrates smart glasses that provide in-situ conversational assistance with a gamified companion that supports the practices of active recall. The smart glasses capture facial features and conversational cues during initial encounters and deliver personalized voice-based reminders during subsequent encounters. The companion 64X64 RGB LED matrix display gamifies social memory practices through AI-generated interactive quizzes, fostering engagement and relationship maintenance. Our work contributes to the HCI community by exploring the design and development of AI systems to support reconnecting with people in socially dense environments through social memory assistance, while also pointing toward accessibility-oriented applications for individuals with face blindness (prosopagnosia) or other memory difficulties. ",
+    links: { pdf: "files/3802974.3808029.pdf", doi: "https://dl.acm.org/doi/full/10.1145/3802974.3808029"}
   }
 ];
