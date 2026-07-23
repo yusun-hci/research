@@ -5,7 +5,7 @@
 // - contacts: any of { email, scholar, github, cv, website } — omit keys you don't have
 const PROFILE = {
   name: "Yu Sun",
-  role: "Doctoral Researcher, HCI|XR|AI — University of St. Gallen",
+  role: "Doctoral Researcher, HCI, XR, AI — University of St. Gallen",
   bio: [
     "I research immersive technologies — VR and MR — through the lens of lived experience and embodied perception, studying what it means to live across virtual and physical environments as the line between them blurs.",
     "Alongside my PhD, I develop and teach a bachelor-level course on Human–Robot Interaction. After finishing my doctorate, I plan to build a startup around this work."
@@ -66,5 +66,15 @@ const ENTRIES = [
     tags: ["Virtual Reality", "Virtual Shopping"],
     abstract: "Online grocery shopping offers time-saving efficiency and convenience, yet many people still prefer physical shopping for trust in food freshness and other sensory experiences. While online stores are evolving to offer new user experiences, such as supporting eco-friendly or ethical shopping, the desktop and mobile platforms limit the engagement of such experiences. Virtual Reality (VR) presents an opportunity to create immersive and rich grocery shopping experiences, closing the gap between the convenience of online shopping and the sensory experience of physical shopping. Yet, designing VR grocery stores remains relatively unexplored. In this paper, we investigate the long-term potential of VR grocery stores, focusing on meeting individual needs. Through a co-design workshop, participants brainstormed the design of product displays, in-shop navigation, shopping carts, social shopping, among others. Based on our findings, we provide design recommendations for future VR grocery shopping to develop meaningful alternatives to existing shopping experiences for groceries. ",
     links: { pdf: "files/3656650.3656685.pdf", doi: "https://dl.acm.org/doi/abs/10.1145/3656650.3656685"}
+  },
+  {
+    type: "Paper",
+    thumb: "files/mrtranslate.jpg",
+    title: "MRTranslate: Bridging Language Barriers in the Physical World Using a Mixed Reality Point-and-Translate System",
+    authors: ["Florian Mathis", "**Yu Sun**","Adrian Preussner"],
+    venue: "AVI '24",
+    tags: ["Mixed Reality", "Assistive MR Artefacts"],
+    abstract: "Language barriers pose significant challenges in our increasingly globalized world, hindering effective communication and access to information. Existing translation tools often disrupt the current activity flow and fail to provide seamless user experiences. In this paper, we contribute the design, implementation, and evaluation of MRTranslate, an assistive Mixed Reality (MR) prototype that enables seamless translations of real-world text. We instructed 12 participants to translate items on a food menu using MRTranslate, which we compared to state-of-the-art translation apps, including Google Translate and Google Lens. Findings from our user study reveal that, when utilising a fully functional implementation of MRTranslate, participants achieved success in up to 91.67% of their translations whilst also enjoying the visual translation of unfamiliar text. Although the current translation apps were well perceived, participants particularly appreciated the convenience of not having to grab a smartphone and manually input the text for translation when using MRTranslate. We believe that MRTranslate, along with the empirical insights we have gained, presents a valuable step towards a future where MR transforms language translation and holds the potential to assist individuals in various day-to-day experiences.",
+    links: { pdf: "files/3656650.3656652.pdf", doi: "https://dl.acm.org/doi/abs/10.1145/3656650.3656652"}
   }
 ];
