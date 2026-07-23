@@ -69,7 +69,7 @@ const ENTRIES = [
   },
   {
     type: "Paper",
-    thumb: "files/mrtranslate.jpg",
+    thumb: "files/mrtranslate.png",
     title: "MRTranslate: Bridging Language Barriers in the Physical World Using a Mixed Reality Point-and-Translate System",
     authors: ["Florian Mathis", "**Yu Sun**","Adrian Preussner"],
     venue: "AVI '24",
