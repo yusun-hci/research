@@ -48,14 +48,14 @@ const ENTRIES = [
     links: { pdf: "files/3780045.3780062.pdf", doi: "https://dl.acm.org/doi/10.1145/3780045.3780062", video: "https://youtu.be/8Y8WbaaLfKE" }
   },
   {
-    type: "Project",
-    thumb: "",
-    title: "Example Project: Replace With Your Own Project Name",
-    authors: ["**Yu**"],
-    venue: "Project",
-    tags: ["Prototype", "VR"],
-    abstract: "",
-    links: { code: "#", demo: "#" }
+    type: "Paper",
+    thumb: "files/vrworlds.jpg",
+    title: "To Cuddle, Mingle, Venture, or Guide: How Architectural Affordances Influence the Experience of Social VR Places",
+    authors: ["Jihae Han", "**Yu Sun**", "Sophia Ppali", "Alexandra Covaci", "Andrew Vande Moere"],
+    venue: "DIS '25",
+    tags: ["Social VR", "Intense Engagement", "Virtual Worlds", "VRChat"],
+    abstract: "Social virtual reality (VR) encompasses a growing network of three-dimensional virtual worlds where users interact in a shared, embodied way. While research has focused on the social interactions between the users themselves, less is known about how the design of virtual spaces influences these interactions. Our study combines interviews with 15 social VR users logging over 1,000 hours and a 20-hour spatial protocol of a purposeful sampling of VR worlds. We analysed how spatial characteristics (including proportion, sightlines, materiality, atmosphere, and navigation) influence meaningful user interaction to turn space into place. We synthesised four place types for a new social VR typology: Cuddle worlds that encourage cosy conversations; Mingle worlds that facilitate new encounters; Venture worlds that promote exploration; and Guided worlds that elicit a sense of belonging with the online community. By relating architectural affordances to social patterns, we contribute insights towards the purposeful design of social VR places.",
+    links: { pdf: "files/3715336.3735772.pdf", doi: "https://dl.acm.org/doi/full/10.1145/3715336.3735772" }
   },
   {
     type: "Course",
