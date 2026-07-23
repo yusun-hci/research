@@ -8,7 +8,7 @@ const PROFILE = {
   role: "Doctoral Researcher, HCI, XR, AI — University of St. Gallen",
   bio: [
     "Hi, I'm Yu Sun, a Human–Computer Interaction researcher at the University of St. Gallen in Switzerland. My research explores how virtual and mixed reality can become part of everyday life and how immersive technologies might shape future ways of living between physical and virtual worlds. ", 
-    "Previously, I have lived and studied in Germany and China. At my leisure time, I enjoy all possible water sports and am a certified Les Mills trainer"
+    "I have previously lived and studied in both Germany and China. Outside of research, I enjoy almost every kind of water sport and am also a certified Les Mills instructor."
   ],
   contacts: {
     email: "mailto:yu.sun@unisg.ch",
