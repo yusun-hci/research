@@ -58,13 +58,13 @@ const ENTRIES = [
     links: { pdf: "files/3715336.3735772.pdf", doi: "https://dl.acm.org/doi/full/10.1145/3715336.3735772" }
   },
   {
-    type: "Course",
-    thumb: "",
-    title: "Human–Robot Interaction (Bachelor)",
-    authors: ["**Yu**"],
-    venue: "Course",
-    tags: ["Teaching", "Robotics"],
-    abstract: "Bachelor-level course covering the fundamentals of human-robot interaction design, including hands-on labs and a final group project.",
-    links: { demo: "#" }
+    type: "Paper",
+    thumb: "files/vrshopping.jpg",
+    title: "Designing Grocery Shopping Experiences for Virtual Reality",
+    authors: ["**Yu Sun**","Luca Nivini","Gian-Luca Savino","Florian Mathis", "Johannes Schöning"],
+    venue: "AVI '24",
+    tags: ["Virtual Reality", "Virtual Shopping"],
+    abstract: "Online grocery shopping offers time-saving efficiency and convenience, yet many people still prefer physical shopping for trust in food freshness and other sensory experiences. While online stores are evolving to offer new user experiences, such as supporting eco-friendly or ethical shopping, the desktop and mobile platforms limit the engagement of such experiences. Virtual Reality (VR) presents an opportunity to create immersive and rich grocery shopping experiences, closing the gap between the convenience of online shopping and the sensory experience of physical shopping. Yet, designing VR grocery stores remains relatively unexplored. In this paper, we investigate the long-term potential of VR grocery stores, focusing on meeting individual needs. Through a co-design workshop, participants brainstormed the design of product displays, in-shop navigation, shopping carts, social shopping, among others. Based on our findings, we provide design recommendations for future VR grocery shopping to develop meaningful alternatives to existing shopping experiences for groceries. ",
+    links: { pdf: "files/3656650.3656685.pdf", doi: "https://dl.acm.org/doi/abs/10.1145/3656650.3656685"}
   }
 ];
